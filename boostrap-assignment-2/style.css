@@ -1,0 +1,17 @@
+.btn-outline-primary {
+    border-color: #18A0FB;
+}
+text-primary{
+    color: #18A0FB;
+}
+.border-dark {
+    border-color: #DEE2E6;
+}
+.btn-outline-grey {
+    border-color: #DEE2E6;
+    background:white;
+}
+.btn:hover {
+    color: #fff !important;
+    text-decoration: none;
+}
