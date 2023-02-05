@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link  href="style.css" rel="stylesheet" />
+    <title>Form</title>
+</head>
+
+<body>
+
+</style>
+    <div class="container mt-4">
+
+        <div class="row">
+            <div class="col">
+                <h1 class="text-center">Form</h1>
+
+                <form>
+                    <div class="form-group mt-3">
+                        <div class="row">
+                            <div class="col-2">
+                                <label for="exampleInputEmail1">Name:</label>
+                            </div>
+                            <div class="col">
+                                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Name">
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="form-group mt-4">
+                        <div class="row">
+                            <div class="col-2">
+                                <label for="exampleInputPassword1">Phone number:</label>
+                            </div>
+                            <div class="col">
+                                <input type="number" class="form-control" id="exampleInputPassword1" placeholder="Enter Phone Number">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group mt-4">
+                        <div class="row">
+                            <div class="col-2">
+                                <label for="exampleInputPassword1">Date of birth:</label>
+                            </div>
+                            <div class="col">
+                                <input type="date" class="form-control" id="exampleInputPassword1">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group mt-4">
+                        <div class="row">
+                            <div class="col-2">
+                                <label for="exampleFormControlTextarea1">Address</label>
+                            </div>
+                            <div class="col">
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group mt-4">
+                        <div class="row">
+
+                            <div class="col-2">
+                                <label>Gender</label>
+                            </div>
+                            <div class="form-radio col">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" checked>
+                                    <label class="form-check-label" for="inlineRadio1">Male</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                    <label class="form-check-label" for="inlineRadio2">Female</label>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-row align-items-center mt-4">
+                        <div class="row">
+                            <div class="col-2">
+                                <label class="mr-sm-2" for="inlineFormCustomSelect">City</label>
+                            </div>
+                            <div class="col">
+                                <select class="custom-select mr-sm-2 w-50" id="inlineFormCustomSelect">
+                                    <option selected>Choose...</option>
+                                    <option value="1">Jaipur</option>
+                                    <option value="2">Varanasi</option>
+                                    <option value="3">Delhi</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group mr-sm-2 mt-4">
+                        <div class="row">
+                            <div class="col-2">
+                                <label>Hobbies</label>
+                            </div>
+                            <div class="col">
+                                <div class="form-check">
+
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="form-check-label" for="exampleCheck1">Music</label>
+
+                                </div>
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="form-check-label" for="exampleCheck1">Drawing</label>
+                                </div>
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="form-check-label" for="exampleCheck1">Singing</label>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+
+            </div>
+            <div class="col">
+                <h1 class="text-center">Table</h1>
+                <div class="container">
+                    <table class="table">
+                        <tr>
+
+                            <th>S.No</th>
+                            <th>Name</th>
+                            <th>Phone</th>
+                            <th>Gender</th>
+                            <th>DOB</th>
+                            <th>Hobbies</th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>Maria Anders</td>
+                            <td>123-4-567 </td>
+                            <td> Male</td>
+                            <td>12/12/1996</td>
+                            <td>Music</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>Aryan</td>
+                            <td>123-4-567 </td>
+                            <td> Male</td>
+                            <td>12/11/2001</td>
+                            <td>Sport</td>
+
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>Abhishek</td>
+                            <td>123-4-567 </td>
+                            <td> Male</td>
+                            <td>12/15/2001</td>
+                            <td>Drawing</td>
+
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
